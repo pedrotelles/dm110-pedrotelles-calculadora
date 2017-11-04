@@ -1,25 +1,25 @@
 package br.inatel.dm110.calculadora.api;
 
 public class Result {
-	private int first;
-	private int second;
-	private int result;
-	public int getFirst() {
+	private String first;
+	private String second;
+	private String result;
+	public String getFirst() {
 		return first;
 	}
-	public void setFirst(int first) {
+	public void setFirst(String first) {
 		this.first = first;
 	}
-	public int getSecond() {
+	public String getSecond() {
 		return second;
 	}
-	public void setSecond(int second) {
+	public void setSecond(String second) {
 		this.second = second;
 	}
-	public int getResult() {
+	public String getResult() {
 		return result;
 	}
-	public void setResult(int result) {
+	public void setResult(String result) {
 		this.result = result;
 	}
 	

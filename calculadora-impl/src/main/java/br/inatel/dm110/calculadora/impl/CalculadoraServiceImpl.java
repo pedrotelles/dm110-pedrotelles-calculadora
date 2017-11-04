@@ -9,12 +9,12 @@ public class CalculadoraServiceImpl implements CalculadoraService {
 	public Result sum(int first, int second) {
 		Result result = new Result();
 		
-		result.setFirst(first);
-		result.setSecond(second);
+		result.setFirst(Integer.toString(first));
+		result.setSecond(Integer.toString(second));
 		
 		int r = first + second;
 		
-		result.setResult(r);
+		result.setResult(Integer.toString(r));
 		
 		
 		return result;
@@ -24,12 +24,12 @@ public class CalculadoraServiceImpl implements CalculadoraService {
 	public Result subtract(int first, int second) {
 Result result = new Result();
 		
-		result.setFirst(first);
-		result.setSecond(second);
+		result.setFirst(Integer.toString(first) );
+		result.setSecond(Integer.toString(second));
 		
 		int r = first - second;
 		
-		result.setResult(r);
+		result.setResult(Integer.toString(r));
 		
 		
 		return result;
