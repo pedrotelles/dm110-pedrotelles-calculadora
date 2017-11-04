@@ -31,7 +31,7 @@ target/
 .settings/
 .classpath
 .project
-
+.gradle/
 # NetBeans specific
 nbproject/private/
 build/
